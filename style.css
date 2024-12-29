@@ -1,3 +1,7 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
 /* container */
 .container {
     background-color: #454545;
@@ -25,7 +29,6 @@
     font-size: 3rem;
     height: 8rem;
     width: 100%;
-    /* TODO: Fix overflow */
 }
 
 /* Buttons */
