@@ -36,7 +36,7 @@
     background-color: #454545;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(5, 1fr);
     min-height: 80vh;
     width: 100%;
@@ -49,7 +49,7 @@
     border: 3px solid #0e1111;
     color: aliceblue;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin: 1px;
 }    
