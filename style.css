@@ -1,3 +1,33 @@
+/* container */
+.container {
+    background-color: #454545;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 500px;
+}    
+
+/* Title */
+.heading {
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+/* Display */
+.display {
+    background-color: #000;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    font-size: 3rem;
+    height: 8rem;
+    width: 100%;
+    /* TODO: Fix overflow */
+}
+
 /* Buttons */
 .btn-container {
     background-color: #454545;
@@ -5,44 +35,47 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    margin: 5rem auto;
     min-height: 80vh;
-    min-width: 60vw;
-}
+    width: 100%;
+    margin: 0 auto;
+}    
 
 .btn {
     background-color: #0e1111;
     border-radius: 10px;
-    border: 2px solid #454545;
+    border: 3px solid #0e1111;
     color: aliceblue;
     cursor: pointer;
     font-size: 1rem;
     font-weight: 600;
     margin: 1px;
-}
+}    
 
 .btn:hover {
     background-color: #1f1d1b;
-}
+}    
 
 .btn:active {
     background-color: #4e4b51;
-}
+}    
 
 .operator {
     border: 3px solid aliceblue;
-}
+}    
 
 .ans {
     background-color: #ff007f;
     border: 2px solid #ff007f;
-}
+}    
 
 .ans:hover {
     background-color: #de5d83;
     border: 2px solid #de5d83;
-}
+}    
 
 .ans:active {
     background-color: #ffc1cc;
-}
+}    
+
+
+
