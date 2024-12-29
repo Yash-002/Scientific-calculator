@@ -66,6 +66,9 @@ body {
     margin: 1px;
     padding: 1rem;
     height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }    
 
 .btn:hover {
